@@ -23,7 +23,7 @@ for (let numeroImage = 1; numeroImage <= 20; numeroImage++) {
 
     listeImages.push({              // Ajoute une image dans la liste des images
         personne: nomPersonne,
-        source: "images/img" + numeroImage + ".jpg",
+        source: "img" + numeroImage + " - Petite.jpeg",
         likes: 0,
         estLikee: false
     });
