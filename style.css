@@ -1,0 +1,35 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+main {
+    text-align: center;
+}
+
+.viewer {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin: 15px 0;
+}
+
+/* zone image  */
+#photo {
+    width: 420px;
+    height: 520px;
+    object-fit: contain;
+    background: #eee;
+}
+
+#filters button {
+    margin: 0 6px 10px;
+}
+
+#filters .active {
+    font-weight: bold;
+}

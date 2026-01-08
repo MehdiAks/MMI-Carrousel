@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mini-projet : Galerie & Carrousel</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <main>
+        <h1>SMART SERIES BY SVELTUS</h1>
+        <p>Photos de Mehdi Afankous</p>
+
+        <!-- Création des boutons de filtre -->
+        <div id="filters">
+            <button class="active" data-filter="Toutes">Toutes</button>
+            <button data-filter="Antoine">Antoine</button>
+            <button data-filter="Paul">Paul</button>
+            <button data-filter="Clementine">Clementine</button>
+            <button data-filter="Mehdi">Mehdi</button>
+        </div>
+
+
+        <!-- Création de l'espace pour les image et les bouton fleches-->
+        <div class="viewer">
+            <button id="prevBtn">←</button>
+            <img id="photo" alt="Photo" />
+            <button id="nextBtn">→</button>
+        </div>
+
+        <div id="counter"></div>
+
+        <!-- 3eme intération like-->
+        <button id="likeBtn">J'aime</button>
+        <div id="likesInfo"></div>
+    </main>
+</body>
+
+</html>
